@@ -73,7 +73,7 @@ func (l *LinkedLIst) Delete(val int) {
 		l.head = l.head.next
 		return
 	}
-	curr := l.head.next
+	curr := l.head
 	for curr.next != nil {
 		if curr.next.data == val {
 			curr.next = curr.next.next

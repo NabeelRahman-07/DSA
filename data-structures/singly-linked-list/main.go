@@ -84,3 +84,13 @@ func main(){
 	list.Display()
 	fmt.Println(list.Search(90))
 }
+
+
+
+
+
+
+
+
+
+
